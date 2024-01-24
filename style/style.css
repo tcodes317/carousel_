@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    padding: 0;
+    scroll-behavior: smooth;
+    box-sizing: border-box;
+}
+.relative{
+    position: relative;
+    width: 900px;
+    height: 450px;
+    border: 1px solid;
+}
+.absolute{
+    position: absolute;
+}
+.card{
+    position: absolute;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    width: 900px;
+    height: 450px;
+    border: 1px solid green;
+}
+.card:nth-of-type(1){
+    background-color: orangered;
+}
+.card:nth-of-type(2){
+    background-color: purple;
+}
+.card:nth-of-type(2){
+    background-color: rgb(133, 133, 133);
+}
+.card:nth-of-type(3){
+    background-color: magenta;
+}
+.card:nth-of-type(4){
+    background-color: teal;
+}
+.active{
+    display: block !important;
+}
+.card{
+    display: none;
+}
